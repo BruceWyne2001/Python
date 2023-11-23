@@ -118,22 +118,26 @@
 # fMoney=fMoney-fAmount
 # sText="我已经买了"
 # print(sText,n,"斤苹果，每斤4.8元，一共花了",fAmount,"元。","给了我30元，还剩下",fMoney,"元")
-age = int(input("请输入你的年龄:"))
-if 0 < age <= 2:
-    print("婴儿")
-elif 2 < age <= 6:
-        print("幼儿")
-elif 6 < age <= 11:
-         print("少儿") 
-elif 11 < age <= 15:
-    print("少年")
-elif 15 < age <= 18:
-    print("青年")
-elif 18 < age <= 30:
-    print("成年")
-elif 30 < age <= 50:
-    print("中年")
-elif 50 < age <= 100:
-    print("老年")
-else:
-    print("老不死")
+
+# age = int(input("请输入你的年龄:"))
+# if 0 < age <= 2:
+#     print("婴儿")
+# elif 2 < age <= 6:
+#         print("幼儿")
+# elif 6 < age <= 11:
+#          print("少儿")
+# elif 11 < age <= 15:
+#     print("少年")
+# elif 15 < age <= 18:
+#     print("青年")
+# elif 18 < age <= 30:
+#     print("成年")
+# elif 30 < age <= 50:
+#     print("中年")
+# elif 50 < age <= 100:
+#     print("老年")
+# else:
+#     print("老不死")
+
+
+
