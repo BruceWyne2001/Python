@@ -136,9 +136,6 @@ At the command prompt, type `nano`.
 I love supporting the **[EFF](https://eff.org)**.
 This is the *[Markdown Guide](https://www.markdownguide.org)*.
 See the section on [`code`](#code).
-# Markdown 图片语法
-要添加图像，请使用感叹号 (!), 然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。
-
-插入图片Markdown语法代码：![这是图片](batman.png"蝙蝠侠")。
+。
 
 

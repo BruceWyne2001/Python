@@ -1,6 +1,6 @@
 # #sep与end的作用
-name1='源氏说:"尝尝神龙之剑"'
-name2='半藏说："愿神龙指引我的箭'
+name1 = '源氏说:"尝尝神龙之剑"'
+name2 = '半藏说："愿神龙指引我的箭'
 print(name2[0::1])
 # name3="命运的齿轮在转动"
 # name4='龙啊~请吞噬我的敌人"'
@@ -76,3 +76,11 @@ print(name2[0::1])
 # #三目运算符
 # result=(a*b)if(a>b)else(a/b)
 # print(result)
+
+# 字符串拼接
+a = "qwertyuiop"
+b = "asdfghjkl"
+c = "zxcvbnm"
+d=','.join((a,b,c))
+print(a+b+c)
+print(d)
