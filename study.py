@@ -61,7 +61,7 @@ print(name2[0::1])
 # # =00000101
 # print(~c)  # 非（取反）
 # # 00000101
-# # =
+# #
 # print(c ^ d)  # 异或（相同为零 不同为一）
 # # 00000101
 # # 00000110
@@ -72,15 +72,39 @@ print(name2[0::1])
 # print(b<<1)#二进制左移一位
 # # 00000100
 # #=00001000
-#
+
 # #三目运算符
 # result=(a*b)if(a>b)else(a/b)
 # print(result)
 
 # 字符串拼接
-a = "qwertyuiop"
-b = "asdfghjkl"
-c = "zxcvbnm"
-d=','.join((a,b,c))
-print(a+b+c)
-print(d)
+# a = "qwertyuiop"
+# b = "asdfghjkl"
+# c = "zxcvbnm"
+# d=','.join((a,b,c))
+# print(a+b+c)
+# print(d)
+#**普通数值打印:**
+# s1=98.5013444
+# print("我考了{:.1f}".format(s1))
+
+#**百分比数值打印:**
+# s1=0.2345567
+# print('{:.1%}'.format(s1))
+
+#**F表达式:**
+# name = 'a'
+# age = 0
+# s1 = f'我的名字叫{name}，年龄为{age}'
+# print(s1)
+
+#列表的一般形式
+# list1 = [1, 2, 34, 5, 6, 7, 8, 9, 0, 'ggb', [1, 2, 3, 4, 5, 6]]
+# print(list1[1])
+# print(list1[10][2])
+
+#列表的更新
+# list1=[1,2,34,5,6,7,8,9,0,'ggb',[1,2,3,4,5,6]]
+# list1[3]=44
+# print(list1)
+
