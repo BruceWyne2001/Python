@@ -161,7 +161,7 @@ xx.lower() 即将所有的大写字母换成小写字母。
     a.append(4,5,6,7)
     print(a)
 
-**insert语法**
+**insert语法:**
 向列表指定位置插入元素
 
     a=[1,2,3]
@@ -169,21 +169,21 @@ xx.lower() 即将所有的大写字母换成小写字母。
     print(a)
 其中，在 'a.insert(1,[4,5,6])'中，第一个参数表示插入的位置，第二个参数表示插入的元素。
 
-**clear语法**
+**clear语法:**
 清空列表
 
     a=[1,2,3]
     a.clear()
     print(a)
 
-**remove语法**
+**remove语法:**
 删除第一次出现的指定元素
 
     a=["qwe","asd","zxc","rtyuiop","fghjkl","vbnm"]
     a.remove("zxc")
     print(a)
 
-**pop语法**
+**pop语法:**
 删除指定位置的元素
 
     a=["qwe","asd","zxc","rtyuiop","fghjkl","vbnm"]
@@ -194,7 +194,7 @@ xx.lower() 即将所有的大写字母换成小写字母。
     a=["qwe","asd","zxc","rtyuiop","fghjkl","vbnm"]
     print(a.pop(3))
 
-**index语法**
+**index语法:**
 index函数用于返回所匹配的元素的索引(下标)。
 
      a=["qwe","asd","zxc","rtyuiop","fghjkl","vbnm"]
@@ -203,9 +203,104 @@ index函数用于返回所匹配的元素的索引(下标)。
 该函数的第一个函数表示的是待查找的对象，
 第二个参数是查找的起始范围，第三个参数是查找的结束范围。
 
-**reverse语法**
+**reverse语法:**
 
     a=["qwe","asd","zxc","rtyuiop","fghjkl","vbnm"]
     a.reverse
     print(a)
 reverse函数用于将列表反向排列
+
+**extend语法:**
+extend函数用于在列表的末尾添加另一个列表。与append函数相比，extend函数可以一次性添加多个元素。
+与列表的相加类似。但与列表的相加不同的是，extend是在原列表的基础上形成的列表，而加法是形成了一个新的列表。
+
+**copy语法:**
+copy函数用于创建指定列表的副本(即复制品)
+
+    a=["qwe","asd","zxc","rtyuiop","fghjkl","vbnm"]
+    b=a.copy()
+    print(b)
+
+**sort语法:**
+sort函数用于列表的排序(默认升序).
+ 
+    a=["qwe","asd","zxc","rtyuiop","fghjkl","vbnm"]
+    a.sort()
+    print(a)
+不同类型的元素按照ASCll码来排序
+
+**count语法:**
+count函数用于统计某个元素在列表中出现的次数。
+
+    a=["qwe","asd","zxc","rtyuiop","fghjkl","vbnm"]
+    b=a.count("qwe")
+    print(b)
+
+*元组:*
+元组使用小括号表示，和列表使用方法类似。元组和列表的唯一区别就是元组的元素是不可变的且元素类型可以不相同。
+元组的一般形式————   
+a=("hi",66,15,12,[12,13,15])
+print(a[])<br>
+元祖可以包含一切其他元素，并且用法也与列表相像。 <br>
+在print其中，‘[]’表示要寻找下标的元组元素。<br>
+元组不能修改，而指定元组中的列表可以修改。
+
+关于元组/列表/字符串的共同操作————        
+**len语法+max语法+min语法:**          
+len语法用于计算元组/列表/字符串中的元素个数   
+max语法用于查找元组/列表/字符串中的最大值   
+min语法用于查找元组/列表/字符串中的最小值
+    
+*集合:*
+创建集合:1、a=set().括号中可以为字符串，列表，元组，字典。     
+且默认将(列表/元组/字典)里重复的数据去除。
+
+**add语法:**
+往集合中添加元素(数字/字符串/元组)       
+    
+    a ={1,2,3}
+    a.add(4,5,6)
+**update语法:**
+将指定集合合并
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
