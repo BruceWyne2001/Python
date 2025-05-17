@@ -17,6 +17,10 @@
 # tn='191110119120'
 # print(name,'今年',age,'性别',sex,'电话号码',tn)
 #
+# print('尊敬的xxxx:\n','\t请点击此处激活你的账户：@1520182685',end='')
+#
+# print('奥特曼说：\"我今天要打小怪兽！！”')
+#
 # print('曾经有一份真挚的爱情摆在我面前，')
 # print('我没有去珍惜,')
 # print('直到失去了我才后悔莫及.')
@@ -27,11 +31,11 @@
 # print('')
 # print(' ***** *****')
 # print(' ******* *******')
-# # print(' ******************')
-# # print(' ****************')
-# # print(' ************')
-# # print(' ********')
-# # print(' **')
+# print(' ******************')
+# print(' ****************')
+# print(' ************')
+# print(' ********')
+# print(' **')
 # #
 # # str='15615649156496'
 # # print(str)
@@ -108,7 +112,8 @@
 # print(type(months))
 # print(len(months))
 # print(months[0],months[3])
-
+from fileinput import filename
+from os.path import pathsep
 
 # variable.py
 # n=5
@@ -138,6 +143,52 @@
 #     print("老年")
 # else:
 #     print("老不死")
+
+#在字符串中寻找字符
+# s1='asdazcxfeqweasd'
+# a=(len(s1))
+# print(a)
+# t=0
+# c=0
+# word=input('请输入你要寻找的字符:')
+# while t<a :
+#     b = s1[t]
+#     if b == word:
+#         print('第{}个{}的找到了！'.format(t+1,word))
+#         t+=1
+#         c+=1
+#     elif b!=word:
+#        t+=1
+# if c==0:
+#     print("可惜没找到......")
+
+#输入两个字符串，从长字符串中删除所有短字符串中的所有字符
+# s1=input('请输入你的字符串:')
+# s2=input('请再次输入你的字符串:')
+# a1=len(s1)
+# a2=len(s2)
+# s3 = ''
+# if a1>a2:
+#     for i in s1:
+#         if i not in s2:
+#             s3+=i
+# elif a1<a2:
+#     for i in s2:
+#         if i not in s1:
+#             s3+=i
+# else:
+#     print("输入错误，情重新输入.......")
+# print(s3,sep=',',end='')
+
+
+
+
+
+
+
+
+
+
 
 
 
