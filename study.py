@@ -524,4 +524,72 @@ from os import lseek
 #                 print("打印随机数:",ran)
 #         else:
 #                 break
-# aaaaaaaaaaaaa
+
+
+# random_list=[]
+# i=0
+# #while i<20:
+# for i in range(20):
+#     ran = random.randint(1,100)
+#     random_list.append(ran)
+#     i+=1
+#     print(random_list)
+    #升/降序排列
+# up_list=sorted( random_list)
+# down_list=sorted(random_list,reverse=True)
+# print('升序是：',up_list)
+# print('降序是：',down_list)
+#取最大/最小值
+# mxvale=random_list[0]
+# # mvale=random_list[0]
+# for vale in random_list:
+#
+#     if vale > mxvale:
+#         mxvale=vale
+#         print("最终最大值为:",mxvale)
+#     if vale > mvale:
+#         vale = mvale
+# print("最终最小值为:",mvale)
+#等同于下面代码
+# random_end=max(random_list)
+# print(random_end)
+#random_end=min(random_list)
+# print(random_end)
+
+#列表简单运用
+# l1=[1,2,3]
+# l2=[4,5,6]
+# l3=l1+l2
+# l4=[1,2,3,'a','b',[1],[2,3],'奥特曼']
+# a1=l1*4
+# print(l3)
+# print(a1)
+# b1=4 in l1
+# print(b1)
+# c1=[1] in l4
+# print(c1)
+
+#已知字符串A=“asmr3sdaFDSG456GSsdaF1S”,要求将A中字符串中大写转小写，小写转大写：
+# A='asmr3sdaFDSG456GSsdaF1S'
+# S=''
+# for i in A:
+#     if i.isupper():
+#         S+=i.lower()
+#     elif i.islower():
+#         S+=i.upper()
+#     else: S+=i
+# print(A)
+# print(S)
+# W=S.lower()
+# print(W)
+
+# X='ABC'
+# Y='CDE'
+# Z=['F','G','H']
+# A=X.join(Y)
+# print(A)
+# B=Y.join(Z)
+# print(B)
+
+
+

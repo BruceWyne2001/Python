@@ -315,8 +315,6 @@ print(a)
      print(random_list)\
 其中，import为引入python库里的random参数;random.randint(1，50)是在1到50之间随即取数
 
-
-
 **clear语法:**
 清空列表
 
